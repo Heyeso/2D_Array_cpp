@@ -1,0 +1,44 @@
+Test case, Assignment Operator: same members, same size, different pointers:
+Assignment Operator passed!
+
+Test case, Assignment Operator: self assignment check
+Assignment Operator passed!
+
+Test case, Copy Constructor: same members, same size, different pointers (deep copy):
+Copy constructor passed!
+
+Test case, Copy Constructor: 1 member:
+Copy constructor passed!
+
+Test case, Copy Constructor: zero members:
+Copy constructor passed!
+
+Test case, Copy Constructor: table size less than 0:
+Copy constructor passed!
+
+Measuring the efficiency of Copying functionality:
+Copy 1000000 members took 140 clock ticks (0.14 seconds)!
+Copy 4000000 members took 18 clock ticks (0.018 seconds)!
+Copy 16000000 members took 92 clock ticks (0.092 seconds)!
+Copy 64000000 members took 248 clock ticks (0.248 seconds)!
+Copy 256000000 members took 973 clock ticks (0.973 seconds)!
+-Time increases, in average, by a factor of 2.37174 compared to the scaling factor 4
+
+Measuring the efficiency of insertion functionality:
+Inserting 1000000 members took 77 clock ticks (0.077 seconds)!
+Inserting 4000000 members took 228 clock ticks (0.228 seconds)!
+Inserting 16000000 members took 544 clock ticks (0.544 seconds)!
+Inserting 64000000 members took 1655 clock ticks (1.655 seconds)!
+Inserting 256000000 members took 4237 clock ticks (4.237 seconds)!
+
+Here is an example of a table:
+y m b k q p g k u x
+e w d b c u v h v #
+i f a q b z o a # s
+b z d f q w a l x y
+d e z w j z e h a m
+t s a z o k z w # f
+q x x f z r o h b #
+t q w p h k # y b x
+z c n r u h p f f d
+z d y l e b r q v a
